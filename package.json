@@ -1,8 +1,17 @@
 {
+  "name": "sample-linear-install",
+  "description": "A sample install of linear, a Node.js powered forum.",
+  "version": "0.0.1",
   "engines": {
     "node": "0.12.x"
   },
+  "main": "web.js",
   "dependencies": {
     "linear": "0.1.0-beta.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trylinear/sample-linear-install.git"
+  },
+  "private": true
 }
