@@ -1,5 +1,5 @@
 var linear = require('linear');
 
 linear.startWithConfig({
-    "site_name": "Sample Forum"
+    'site_name': 'Sample Forum'
 });
