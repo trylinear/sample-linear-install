@@ -3,11 +3,11 @@
   "description": "A sample install of linear, a Node.js powered forum.",
   "version": "0.0.4",
   "engines": {
-    "node": "0.12.x"
+    "node": ">=6.0"
   },
   "main": "web.js",
   "dependencies": {
-    "linear": "0.1.0-beta.10"
+    "linear": "1.0.0"
   },
   "repository": {
     "type": "git",
