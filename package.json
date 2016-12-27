@@ -1,7 +1,7 @@
 {
   "name": "sample-linear-install",
   "description": "A sample install of linear, a Node.js powered forum.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "node": ">=6.0"
   },
