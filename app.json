@@ -2,7 +2,7 @@
   "name": "Sample Linear Install",
   "description": "A sample install of linear, a Node.js powered forum.",
   "repository": "https://github.com/trylinear/sample-linear-install",
-  "keywords": ["forum", "node", "mongodb", "express"],
+  "keywords": ["node", "mongodb", "express", "forum", "heroku"],
   "env": {
     "SECRET": "secret"
   },
