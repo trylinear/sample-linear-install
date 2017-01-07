@@ -7,7 +7,7 @@
   },
   "main": "web.js",
   "dependencies": {
-    "linear": "1.0.0"
+    "linear": "1.0.2"
   },
   "repository": {
     "type": "git",
