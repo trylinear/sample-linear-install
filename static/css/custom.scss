@@ -1,0 +1,40 @@
+$theme-color: #F64D49;
+
+a {
+    color: $theme-color;
+}
+
+.page-header {
+    color: #fff;
+    background-color: $theme-color;
+
+    @media screen and (max-width: 37.500em) {
+
+        .toggle-navigation {
+            a {
+                background-color: darken($theme-color, 8);
+            }
+        }
+
+        .navigation {
+            background-color: rgba($theme-color, 0.95);
+        }
+
+    }
+
+}
+
+.post,
+.message {
+
+    .info a:hover,
+    .admin-links a {
+        color: $theme-color;
+    }
+
+}
+
+.button {
+    color: #fff;
+    background-color: $theme-color;
+}
