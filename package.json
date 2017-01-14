@@ -1,5 +1,5 @@
 {
-  "name": "sample-linear-install",
+  "name": "@trylinear/sample-linear-install",
   "description": "A sample install of linear, a Node.js powered forum.",
   "version": "0.0.5",
   "engines": {
