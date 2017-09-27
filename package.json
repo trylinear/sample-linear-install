@@ -8,16 +8,20 @@
   "main": "web.js",
   "dependencies": {
     "linear": "1.0.5",
-    "node-sass": "4.3.0"
+    "node-sass": "4.3.0",
+    "snyk": "^1.41.1"
   },
   "scripts": {
     "postinstall": "npm run build",
     "build": "npm run build:css",
-    "build:css": "node-sass static/css/ -o static/css/"
+    "build:css": "node-sass static/css/ -o static/css/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/trylinear/sample-linear-install.git"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
